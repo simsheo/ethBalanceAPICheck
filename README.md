@@ -1,13 +1,13 @@
-# Problem
+## Problem
 Write an automation health check script that fetches the balance of an address using the REST API below. If the balance is below 0.1 ether, it should send a notification via email or another communication channel.
 
-# Solution/Approach
+## Solution/Approach
 I prefer using Python whenever dealing with REST APIs and email notifications. I am well-verse with Python Requests module to handle REST end-points. I used smtplib for sending emails. I used CircleCI as CI/CD tool to schedule the script to run at a particular time. 
 
-# Areas of Improvement
+## Areas of Improvement
 If given more time, I could have added some tests for this script using pytest module, but given this script is very straightforward and I added all the code in try..except with additional specific exceptions handling offered by Requests module such as HTTP Code errors, timeout errors etc. so think we are covered here.
 
-# ethBalanceAPICheck
+## ethBalanceAPICheck
 This script runs periodically (set to run every 5 mins in CircleCI project settings) to check/ fetch the balance of eth for an address from an API end-point & report
 via notification/mail to users whenever the balance is below thershold value set in the code
 
