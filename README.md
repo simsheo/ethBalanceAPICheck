@@ -4,7 +4,7 @@ via notification/mail to users whenever the balance is below thershold value set
 
 ## Instructions to Run the Source Code:
 
-1. Clone the GitHub Repo: https://github.com/pradeepsheokand/ethBalanceAPICheck.git to your local directory
+1. Clone this GitHub Repo to your local directory
 2. If not already installed, Install Python version > 3.8
 3. Create a virtual env using this python command: python -m venv c:\path\to\myenv
 4. Activate above virtual env: \path\to\myenv\Scripts\activate
