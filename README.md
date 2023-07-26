@@ -7,7 +7,7 @@ I prefer using Python whenever dealing with REST APIs and email notifications. I
 ## Areas of Improvement
 If given more time, I could have added some tests for this script using pytest module, but given this script is very straightforward and I added all the code in try..except with additional specific exceptions handling offered by Requests module such as HTTP Code errors, timeout errors etc. so think we are covered here.
 
-## ethBalanceAPICheck
+## ethBalanceAPICheck Script Details
 This script runs periodically (set to run every 5 mins in CircleCI project settings) to check/ fetch the balance of eth for an address from an API end-point & report
 via notification/mail to users whenever the balance is below thershold value set in the code
 
