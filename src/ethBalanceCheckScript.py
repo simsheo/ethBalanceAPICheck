@@ -13,8 +13,8 @@ eth_balance_obj = {
 }
 
 def send_email(addbalanceEth):
-    fromaddr = "parasheotest@gmail.com"
-    toaddr = "pradeepk.sheokand@gmail.com"
+    fromaddr = "sheotest@gmail.com"
+    toaddr = sihagseema@yahoo.com""
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
